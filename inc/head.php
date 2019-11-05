@@ -2,11 +2,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <meta charset="utf-8">
-   <meta http-equiv="x-ua-compatible" content="ie=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1">
-   <title>The Cookie Factory</title>
-   <!-- Latest compiled and minified CSS -->
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The Cookie Factory</title>
+    <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
           integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
@@ -47,15 +47,15 @@
                     <?php
                     if(empty($_SESSION['username']))
                     {
-                    ?>
-                    <li><a href="/login.php">Login</a></li>
+                        ?>
+                        <li><a href="/login.php">Login</a></li>
                         <?php
                     }
-                        ?>
+                    ?>
                     <?php
                     if(!empty($_SESSION['username']))
                     {
-                    ?>
+                        ?>
                         <li><a href="/logout.php">Déconnexion</a></li>
                         <?php
                     }
